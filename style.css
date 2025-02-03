@@ -1,55 +1,61 @@
-/* Styles généraux pour le site */
 body {
+
     font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+
     margin: 0;
+
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+
 }
 
-/* Header */
+
 header {
-    background-color: #3b5998; /* Couleur de Facebook */
-    color: white;
-    padding: 20px;
+
+    background: #333;
+
+    color: Tomato;
+
+    padding: 1rem 0;
     text-align: center;
+
 }
 
-header h1 {
-    font-size: 2.5rem;
-}
 
-#logo {
-    width: 150px;
-    height: auto;
-}
+header nav a {
 
-/* Section */
-section {
-    margin: 20px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 8px;
-}
+    color: Tomato;
 
-h2 {
-    font-size: 1.8rem;
-}
+    margin: 0 1rem;
 
-/* Liens */
-a {
-    color: #3b5998;
     text-decoration: none;
+
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+main {
+
+    padding: 1rem;
+
     text-align: center;
+
+}
+
+
+footer {
+
+    background: #333;
+
+    color: Tomato;
+
+    text-align: center;
+
+    padding: 1rem 0;
+
+    position: absolute;
+
+    bottom: 0;
+
+    width: 100%;
 }
